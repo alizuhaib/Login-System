@@ -1,5 +1,5 @@
 """
-login app
+login app for review
 """
 from flask import Flask, session, redirect, url_for, escape, request, render_template, jsonify
 import MySQLdb
