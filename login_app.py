@@ -1,4 +1,6 @@
-"""Login, Sign Up, Update and Delete User"""
+"""
+Login, Sign Up, Update and Delete User
+"""
 from flask import Flask, request
 from flaskext.mysql import MySQL
 from flask_restful import Api, Resource
