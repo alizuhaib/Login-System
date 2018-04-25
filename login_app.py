@@ -57,7 +57,7 @@ class AddUser(Resource):
 
 class UpdateUser(Resource):
     def put(self):
-        """"If you want the password or username , you can update user information from this function"""
+        """"Update user information"""
         conn = mysql.get_db()
         cursor = conn.cursor()
         username_form = request.form['UserName']
